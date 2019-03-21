@@ -68,3 +68,9 @@ reuben[2] = "Chicago";
 jimHaff.pop();
 jimHaff.push(['LA', 'NY', 'Hong Kong']);
 
+// Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
+let ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+// Use a for loop to call .toUpperCase() on each of them and print out the result.
+for (let i=0; i<=ninjaTurtles.length; i++) {
+    // console.log(ninjaTurtles.toUpperCase());
+}
