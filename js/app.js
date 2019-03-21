@@ -122,6 +122,15 @@ for (let i=0; i<kristynsCloset.length; i++) {
 }
 
 // Thom wants to do inventory on his closet. Using bracket notation, log the arrays (not the elements in the arrays) containing all of Thom's shirts, pants, and accessories.
-console.log([0]);
-console.log([1]);
-console.log([2]);
+// console.log(thomsCloset[0]);
+// console.log(thomsCloset[1]);
+// console.log(thomsCloset[2]);
+
+// If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+var sum = 0;
+for (let i=1; i<10; i++) {
+    if(i % 3 === 0 || i % 5 === 0) {
+       sum = sum + i; 
+    }
+}
+// console.log(sum);
