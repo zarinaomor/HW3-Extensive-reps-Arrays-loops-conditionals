@@ -74,3 +74,45 @@ let ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
 for (let i=0; i<=ninjaTurtles.length; i++) {
     // console.log(ninjaTurtles.toUpperCase());
 }
+
+// Kristyn's left shoe has traveled through time and space and turned up in Thom's accessories drawer! Remove Kristyn's shoe from the array and save it to the variable kristynsShoe. Use that variable to add Kristyn's lost shoe to Thom's accessories array.
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+  let kristynsShoe = kristynsCloset.shift();
+//   console.log(kristynsCloset);
+  thomsCloset[2].push(kristynsShoe);
+//   console.log(thomsCloset);
+
+// Modify your code to put together 3 separate outfits for Kristyn and Thom. Put the output in a sentence to tell us what we'll be wearing. Mix and match!
+for (let i=0; i<=2; i++) {
+    kristynThomOutfit = Math.floor((Math.random() * (kristynsCloset.length)));
+    // console.log('Kristyn and Thoms outfits are: ' + kristynsCloset[kristynThomOutfit]);
+}
+
